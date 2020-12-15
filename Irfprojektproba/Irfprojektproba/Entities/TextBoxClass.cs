@@ -12,7 +12,7 @@ namespace Irfprojektproba.Entities
         public TextBoxClass()
         {
             this.Text = "Sütemény neve...";
-            
+            this.GotFocus += RemoveText;
             this.Width = 200;
         }
 
