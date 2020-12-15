@@ -27,6 +27,9 @@ namespace Irfprojektproba
             sutinev = new TextBoxClass();
             isCukormentes = new CheckBoxClass();
 
+            this.flowLayoutPanel1.Controls.Add(sutinev);
+            this.flowLayoutPanel1.Controls.Add(isCukormentes);
+            this.flowLayoutPanel1.Controls.Add(hozzaad);
         }
 
         private BindingList<Rendeles> Beolvas(string csvpath)
