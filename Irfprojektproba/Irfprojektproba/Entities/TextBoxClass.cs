@@ -32,6 +32,9 @@ namespace Irfprojektproba.Entities
                 this.Text = "Sütemény neve...";
             }
         }
-        
+        public String getText()
+        {
+            return this.Text == "Sütemény neve..." ? "" : this.Text;
+        }
     }
 }
