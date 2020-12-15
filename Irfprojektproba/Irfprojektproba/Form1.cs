@@ -16,10 +16,12 @@ namespace Irfprojektproba
     public partial class Form1 : Form
     {
         private BindingList<Rendeles> adat = new BindingList<Rendeles>();
+        
 
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private BindingList<Rendeles> Beolvas(string csvpath)
@@ -56,6 +58,7 @@ namespace Irfprojektproba
             adat = Beolvas("CSVfile/rendelesek.csv");
             dataGridView1.DataSource = adat;
             showChart();
+            flowLayoutPanel1.Visible = true;
         }
 
         private void showChart()
