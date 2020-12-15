@@ -16,11 +16,16 @@ namespace Irfprojektproba
     public partial class Form1 : Form
     {
         private BindingList<Rendeles> adat = new BindingList<Rendeles>();
-        
+        ButtonClass hozzaad;
+        TextBoxClass sutinev;
+        CheckBoxClass isCukormentes;
 
         public Form1()
         {
             InitializeComponent();
+            hozzaad = new ButtonClass();
+            sutinev = new TextBoxClass();
+            isCukormentes = new CheckBoxClass();
 
         }
 
