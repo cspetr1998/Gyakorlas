@@ -1,0 +1,8 @@
+A projektem célja a családi cukrászmûhelyünknek egy egyszerûbb, bár annál hasznosabb program megvalósítása. 
+Manapság egyre elterjedtebbek a különbözõ allergénektõl mentes ételek, így a torták is. Ezért a programomnak nem az az elsõdleges célja, hogy megtudjuk, hogy az adott idõszakban milyen ízesítésû torták voltak a legkedveltebbek, hanem az, hogy milyen arányban rendeltek az ügyfelek sima vagy mindenmentes tortákat.
+Program tervezett funkciói:
+1. Az adatainkat egy csv fájlban gyûjtöttem össze, így az elsõdleges feladata a programomnak, hogy az ebben tárolt adatokat beolvassa. A csv fájl elsõ oszlopában a tortákat, a második oszlopában pedig azt látjuk hogy sima vagy mindenmentes kategóriába tartozik. 
+A simát 1-esel a menteset pedig 2-es számjeggyel jelöltem.
+2. A bal felsõ részen található Beolvasás felíratú gombbal egy DataGridView-n megjeleníthetjük a csv fájl adatait és a diagramunkat.
+3. A diagram az adataink könnyebb átláthatóságát teszi lehetõvé. Mivel a program fõ célja, hogy jobban átlássuk, hogy sima és a mindenmentes torták rendelése milyen gyakori, így az X tengelyen nem a tortanevek, csak a kategóriájuk fog megjelenni, az Y tengelyen pedig a mennyiségeket tudjuk leolvasni.
+4. Megtörténhet, hogy a csv fájlunkat nem tudjuk naprakészen tartani, viszont nekünk gyorsan szükségünk van egy naprakész diagramra. Erre a célra szolgál a Panelünk, melyen a textbox, a checkbox és a button segítségével gyorsan hozzáadhatjuk a legfrissebben beérkezett rendeléseinket.
